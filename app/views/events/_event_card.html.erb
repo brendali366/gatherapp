@@ -1,44 +1,17 @@
-<div id="<%= dom_id event_card %>">
-  <h2>
-    <%= event.title %>
-  </h2>
- <p>
-    <strong>Event Location:</strong>
-    <%= event.location_description %>
-  </p>
-  <p>
-    <strong>Event Type:</strong>
-    <%= event.event_type %>
-  </p>
+<div id="<%= dom_id event %>">
+	<div id="events">	
+	  <h2>
+	    <%= event.title %>
+	  </h2>
+	 <p>
+	    <strong>Location:</strong>
+	    <%= event.location_description %>
+	 </p>
 
-  <p>
-    <strong>Description:</strong>
-    <%= event.description %>
-  </p>
-
-  <p>
-    <strong>Street:</strong>
-    <%= event.street %>
-  </p>
-
-  <p>
-    <strong>City:</strong>
-    <%= event.city %>
-  </p>
-
-  <p>
-    <strong>State:</strong>
-    <%= event.state %>
-  </p>
-
-  <p>
-    <strong>Zip Code:</strong>
-    <%= event.zip %>
-  </p>
-
-  <p>
-    <strong>Date and Time:</strong>
-    <%= event.event_time %>
-  </p>
+	  <p>
+	    <strong>Date and Time:</strong>
+	    <%= event.event_time %>
+	  </p>
+	</div> 
 
 </div>
