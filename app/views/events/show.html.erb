@@ -1,17 +1,76 @@
 <p style="color: green"><%= notice %></p>
 
-<p>
+
+<% if @event.image? %>
+
+<%= image_tag @event.image.url, class: "event-show" %>
+
+<% end %>
+
+
+
+<div class="event-overview">
+
+  <div class = "event-title">
+
+     <p>
     <strong>Event Title:</strong>
     <%= @event.title %>
-  </p>
- <p>
+    </p>
+  </div> <!---div for event title--->
+
+  <div class = "event-type">
+  </div> <!---div for event type--->
+
+  <div class = "event-location">
+
+    <p>
     <strong>Event Location:</strong>
     <%= @event.location_description %>
-  </p>
+    </p>
+
+
+  </div>
+
+  <div class = "event-datentime">
+
+    <p>
+    <strong>Date and Time:</strong>
+    <%= @event.event_time %>
+    </p>
+
+
+  </div> <!---div for event date and time--->
+
+</div> <!---div for event overview--->
+
+       
+    <!---
+    <p>
+    <strong>Event Title:</strong>
+    <%= @event.title %>
+    </p>
+    
+    <p>
+    <strong>Event Location:</strong>
+    <%= @event.location_description %>
+    </p>
+
+    <p>
+    <strong>Date and Time:</strong>
+    <%= @event.event_time %>
+
+
   <p>
     <strong>Event Type:</strong>
     <%= @event.event_type %>
   </p>
+    </p> --->
+
+
+
+
+
 
   <p>
     <strong>Description:</strong>
@@ -38,10 +97,7 @@
     <%= @event.zip %>
   </p>
 
-  <p>
-    <strong>Date and Time:</strong>
-    <%= @event.event_time %>
-  </p>
+  
 
 
     

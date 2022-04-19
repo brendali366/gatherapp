@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_03_31_193325) do
+ActiveRecord::Schema[7.0].define(version: 2022_04_19_191442) do
   create_table "events", force: :cascade do |t|
     t.text "title"
     t.text "description"
@@ -23,6 +23,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_03_31_193325) do
     t.string "zip"
     t.string "state"
     t.string "event_type"
+    t.string "image"
   end
 
 end

@@ -47,6 +47,7 @@ gem "sassc-rails"
 
 gem 'cocoon'
 
+gem 'carrierwave'
 #adding bootstrap
 
 gem 'bootstrap', '~> 4.6.1'
