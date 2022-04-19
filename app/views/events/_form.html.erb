@@ -11,6 +11,30 @@
     </div>
   <% end %>
 
+
+
+
+
+   <div class="form-group">
+
+    <%= form.file_field :image %>
+
+    <% if @event.image? %>
+
+      <%= image_tag @event.image.url, class: "event-show" %>
+
+      <%= form.check_box :remove_image %>
+
+        Remove Image
+
+    <% end %> 
+
+
+
+
+
+ </div>
+
   <div>
     <%= form.label :title, style: "display: block" %>
     <%= form.text_area :title %>
