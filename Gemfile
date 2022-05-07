@@ -50,6 +50,10 @@ gem 'cocoon'
 gem 'carrierwave'
 #adding bootstrap
 
+gem 'devise'
+
+#addition for devise to add sign in and email and stuffs
+
 gem 'bootstrap', '~> 4.6.1'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

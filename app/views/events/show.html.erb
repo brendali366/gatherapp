@@ -19,8 +19,14 @@
     </p>
   </div> <!---div for event title--->
 
+
+
   <div class = "event-type">
+
   </div> <!---div for event type--->
+
+
+  <div class="d-flex align-items-center">
 
   <div class = "event-location">
 
@@ -32,7 +38,7 @@
 
   </div>
 
-  <div class = "event-datentime">
+  <div class = "event-datentime ml-5">
 
     <p>
     <strong>Date and Time:</strong>
@@ -41,6 +47,8 @@
 
 
   </div> <!---div for event date and time--->
+
+</div>
 
 </div> <!---div for event overview--->
 
@@ -70,13 +78,15 @@
 
 
 
-
+<div class = "event-description">
 
   <p>
     <strong>Description:</strong>
     <%= @event.description %>
   </p>
+      </div> <!---end of description div--->
 
+      <div class ="event-address">
   <p>
     <strong>Street:</strong>
     <%= @event.street %>
@@ -96,6 +106,9 @@
     <strong>Zip Code:</strong>
     <%= @event.zip %>
   </p>
+
+
+</div> <!---address div--->
 
   
 

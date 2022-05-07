@@ -4,4 +4,10 @@ class PagesController < ApplicationController
 
 	def privacy
 	end
+
+	def campus_events
+	end
+
+	def community_events
+	end
 end

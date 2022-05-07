@@ -16,7 +16,9 @@ html {
 }
 
 .link-primary {
-    color: #786dd6
+    color: #786dd6;
+    font-size:  30px;
+
 }
 
 
@@ -35,7 +37,7 @@ html {
 }
 .recipe-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: space-between;
 }
@@ -87,4 +89,51 @@ img.recipe-show {
 .show-hero-overlay>div {
     max-width:768px;
     margin: 0 auto;
+}
+
+
+
+/* Brenda's edits */
+
+.event-overview {
+	background: #E7EEC9;
+	border-radius: 25px;
+	display:  flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+
+
+}
+
+.event-title {
+	text-align: left;
+	padding-left: 2rem;
+
+
+
+}
+
+.event-location	{
+	text-align:  center;
+
+}
+
+.event-datentime {
+	text-align:  right;
+	padding-right: 2rem;
+
+
+}
+
+.event-description{
+	background:  #E7EEC9;
+	border-radius: 25px;
+
+}
+
+.event-address{
+	background:  #E7EEC9;
+	border-radius: 25px;
+
 }
